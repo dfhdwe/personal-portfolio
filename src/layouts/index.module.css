@@ -1,0 +1,28 @@
+.container {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url(../images/cloud_mountain.jpg);
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+}
+
+.title_outer {
+    background-color: transparent;
+    border: 5px solid #fff;
+    padding: 5vh 8vw;
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    margin: auto;
+}

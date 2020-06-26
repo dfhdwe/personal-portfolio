@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 50px;
+}
+
+.logo {
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.links {
+    display: inline-block;
+    text-align: right;
+}
+
+.links li {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.links li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: -5px;
+    background: #fff;
+    height: 2px;
+    transition-property: left right;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+}
+
+.links li:hover:after,
+.links li:focus:after,
+.links li:active:after {
+    right: 0;
+}
+
+.link {
+    color: #fff;
+}
+
+/* TODO: mobile nav */
+@media only screen and (max-width: 500px) {
+    .container {
+        background-color: red;
+    }
+}

@@ -1,0 +1,40 @@
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    background-color: #333333;
+    overflow-x: hidden;
+    color: #fff;
+}
+
+.title {
+    font-size: 4rem;
+    width: fit-content;
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 5rem;
+}
+
+.text {
+    padding: 0 12% 0 11%;
+}
+
+.title span {
+    font-weight: bold;
+}
+
+.text div {
+    margin-top: 4rem;
+    font-size: 1.8rem;
+}
+
+.text .text_left {
+    text-align: left;
+}
+
+.text .text_right {
+    text-align: right;
+}
+
+.text span {
+    color: #E74C3C;
+}
