@@ -22,7 +22,10 @@ const ContactPage = () => {
                 </a>
 
             </div>
-            <div className={classes.text}>Or send me an <a href="mailto:mwangbox@gmail.com" target="_blank" rel="noopener noreferrer">email</a></div>
+            <div className={classes.text}>
+                Or send me an <a href="mailto:mwangbox@gmail.com" target="_blank" rel="noopener noreferrer">email</a><br />
+                ...Or look at my <a href="../data/resume.docx" download>resume</a>
+            </div>
         </div>
     );
 }

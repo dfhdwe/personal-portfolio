@@ -3,7 +3,7 @@
     min-height: 100vh;
     background-color: #333333;
     overflow-x: hidden;
-    color: #fff;
+    color: #eee;
 }
 
 .text {
@@ -28,7 +28,7 @@
     width: 180px;
     height: 180px;
     display: flex;
-    background-color: #aaa;
+    background-color: #eee;
     margin: 0 2.4rem 0 2.4rem;
     border-radius: 50%;
     justify-content: center;
