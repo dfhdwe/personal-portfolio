@@ -1,0 +1,86 @@
+.loader-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 10rem;
+    background-color: transparent;
+    border: 1rem solid red;
+    margin: 0 auto;
+    animation-name: stretch-border;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.loader-small {
+    height: 5rem;
+    width: 5rem;
+    margin: 0 auto;
+    animation-name: stretch;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes stretch {
+    0% {
+        transform: scale(.1);
+        background-color: #27ae60;
+        border-radius: 100%;
+    }
+
+    50% {
+        background-color: #2ecc71;
+    }
+
+    100% {
+        transform: scale(1);
+        background-color: #45ff76;
+        border-radius: 100%;
+    }
+}
+
+@keyframes stretch-border {
+    0% {
+        transform: scale(.5);
+        border-color: #27ae60;
+        border-radius: 100%;
+    }
+
+    50% {
+        border-color: #2ecc71;
+    }
+
+    100% {
+        transform: scale(1.5);
+        border-color: #45ff76;
+    }
+}

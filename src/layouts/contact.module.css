@@ -13,7 +13,7 @@
 }
 
 .text a {
-    color: #E74C3C;
+    color: #2ecc71;
 }
 
 .links {
@@ -25,13 +25,29 @@
 }
 
 .link {
-    width: 198px;
-    height: 198px;
+    width: 180px;
+    height: 180px;
     display: flex;
-    background-color: #fff;
+    background-color: #aaa;
     margin: 0 2.4rem 0 2.4rem;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     color: #333333;
+}
+
+.link:hover {
+    background-color: #fff;
+}
+
+/* TODO: mobile nav */
+@media only screen and (max-width: 590px) {
+    .text {
+        font-size: 2.8rem;
+    }
+
+    .link {
+        width: 100px;
+        height: 100px;
+    }
 }
