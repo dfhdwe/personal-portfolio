@@ -1,27 +1,23 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.f21b9ddd.chunk.css",
-    "main.js": "/personal-portfolio/static/js/main.48a65562.chunk.js",
-    "main.js.map": "/personal-portfolio/static/js/main.48a65562.chunk.js.map",
+    "main.css": "/personal-portfolio/static/css/main.b9ca8058.chunk.css",
+    "main.js": "/personal-portfolio/static/js/main.f0a99dff.chunk.js",
+    "main.js.map": "/personal-portfolio/static/js/main.f0a99dff.chunk.js.map",
     "runtime-main.js": "/personal-portfolio/static/js/runtime-main.b328d4e0.js",
     "runtime-main.js.map": "/personal-portfolio/static/js/runtime-main.b328d4e0.js.map",
-    "static/css/2.e8348c7c.chunk.css": "/personal-portfolio/static/css/2.e8348c7c.chunk.css",
-    "static/js/2.0d80c88f.chunk.js": "/personal-portfolio/static/js/2.0d80c88f.chunk.js",
-    "static/js/2.0d80c88f.chunk.js.map": "/personal-portfolio/static/js/2.0d80c88f.chunk.js.map",
+    "static/js/2.4c110414.chunk.js": "/personal-portfolio/static/js/2.4c110414.chunk.js",
+    "static/js/2.4c110414.chunk.js.map": "/personal-portfolio/static/js/2.4c110414.chunk.js.map",
     "index.html": "/personal-portfolio/index.html",
-    "precache-manifest.7ab6523708987efa0d62bcaa6ee84261.js": "/personal-portfolio/precache-manifest.7ab6523708987efa0d62bcaa6ee84261.js",
+    "precache-manifest.9110e834606ec2bada0f33ffac72d2ff.js": "/personal-portfolio/precache-manifest.9110e834606ec2bada0f33ffac72d2ff.js",
     "service-worker.js": "/personal-portfolio/service-worker.js",
-    "static/css/2.e8348c7c.chunk.css.map": "/personal-portfolio/static/css/2.e8348c7c.chunk.css.map",
-    "static/css/main.f21b9ddd.chunk.css.map": "/personal-portfolio/static/css/main.f21b9ddd.chunk.css.map",
-    "static/js/2.0d80c88f.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.0d80c88f.chunk.js.LICENSE.txt",
-    "static/media/index.module.css": "/personal-portfolio/static/media/cloud_mountain.4afab1f5.jpg",
-    "static/media/slick-theme.css": "/personal-portfolio/static/media/slick.f97e3bbf.svg"
+    "static/css/main.b9ca8058.chunk.css.map": "/personal-portfolio/static/css/main.b9ca8058.chunk.css.map",
+    "static/js/2.4c110414.chunk.js.LICENSE.txt": "/personal-portfolio/static/js/2.4c110414.chunk.js.LICENSE.txt",
+    "static/media/index.module.css": "/personal-portfolio/static/media/cloud_mountain.4afab1f5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b328d4e0.js",
-    "static/css/2.e8348c7c.chunk.css",
-    "static/js/2.0d80c88f.chunk.js",
-    "static/css/main.f21b9ddd.chunk.css",
-    "static/js/main.48a65562.chunk.js"
+    "static/js/2.4c110414.chunk.js",
+    "static/css/main.b9ca8058.chunk.css",
+    "static/js/main.f0a99dff.chunk.js"
   ]
 }
