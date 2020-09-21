@@ -24,7 +24,7 @@ const ContactPage = () => {
             </div>
             <div className={classes.text}>
                 Or send me an <a href="mailto:mwangbox@gmail.com" target="_blank" rel="noopener noreferrer">email</a><br />
-                ...Or look at my <a href="../data/resume.docx" download>resume</a>
+                ...Or look at my <a href="https://docs.google.com/document/d/1-qAj1TWQ2IimDpJfHZxg0OR49bCKfe_6ehk2SO6mr3A/edit?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>
             </div>
         </div>
     );

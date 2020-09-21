@@ -50,29 +50,32 @@ const Nav = () => {
     }, [windowSize]);
 
     return (
-        <nav className={isOpen ? classes.container_open : classes.container}>
-            <div
-                className={classes.icon}
-                onClick={() => setIsOpen(!isOpen)}>
-                {isOpen ? <AiOutlineClose size={50} color="#999" /> : <BsList size={50} />}
-            </div>
-            <Link to="/" className={classes.link}>
-                <div className={classes.logo}>
-                    Michael S. Wang
+        <>
+            <div className={isOpen ? classes.container : ""}></div>
+            <nav className={isOpen ? classes.container_open : classes.container}>
+                <div
+                    className={classes.icon}
+                    onClick={() => setIsOpen(!isOpen)}>
+                    {isOpen ? <AiOutlineClose size={50} color="#999" /> : <BsList size={50} />}
                 </div>
-            </Link>
+                <Link to="/" className={classes.link}>
+                    <div className={classes.logo}>
+                        Michael S. Wang
+                </div>
+                </Link>
 
-            <ul className={isOpen ? classes.links_open : classes.links}>
-                {isOpen ?
-                    [<li><Link className={classes.link_disabled} replace>Michael S. Wang</Link></li>,
-                    <li><Link to="/" className={classes.link} replace>Home</Link></li>] :
-                    <></>
-                }
-                <li><Link to="/about" className={classes.link} replace>About</Link></li>
-                <li><Link to="/projects" className={classes.link} replace>Projects</Link></li>
-                <li><Link to="/contact" className={classes.link} replace>Contact</Link></li>
-            </ul>
-        </nav>
+                <ul className={isOpen ? classes.links_open : classes.links}>
+                    {isOpen ?
+                        [<li><div className={classes.link_disabled} replace>Michael S. Wang</div></li>,
+                        <li><Link to="/" className={classes.link} replace>Home</Link></li>] :
+                        <></>
+                    }
+                    <li><Link to="/about" className={classes.link} replace>About</Link></li>
+                    <li><Link to="/projects" className={classes.link} replace>Projects</Link></li>
+                    <li><Link to="/contact" className={classes.link} replace>Contact</Link></li>
+                </ul>
+            </nav>
+        </>
     );
 }
 

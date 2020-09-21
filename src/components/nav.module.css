@@ -64,6 +64,12 @@
     right: 2rem;
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+}
+
 /* TODO: mobile nav */
 @media only screen and (max-width: 590px) {
 
@@ -77,6 +83,12 @@
         justify-content: center;
         align-items: center;
         overflow-y: scroll;
+        opacity: 0.95;
+        animation-name: slideIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.1s;
+        top: 0;
     }
 
     .logo {
@@ -102,10 +114,6 @@
         position: relative;
         padding: 0 1rem;
         border-bottom: 0.1rem solid #999;
-    }
-
-    .link_disabled:active {
-        color: #333;
     }
 
     .link {
