@@ -3,21 +3,21 @@
     min-height: 100vh;
     background-color: #333333;
     overflow-x: hidden;
-    color: #fff;
+    color: #eee;
 }
 
 .text {
     font-size: 3.5rem;
     font-weight: bold;
     margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
 }
 
 .text a {
-    color: #E74C3C;
+    color: #2ecc71;
 }
 
 .links {
-    margin-top: 5.4rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -25,13 +25,29 @@
 }
 
 .link {
-    width: 198px;
-    height: 198px;
+    width: 180px;
+    height: 180px;
     display: flex;
-    background-color: #fff;
+    background-color: #eee;
     margin: 0 2.4rem 0 2.4rem;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     color: #333333;
+}
+
+.link:hover {
+    background-color: #fff;
+}
+
+/* TODO: mobile nav */
+@media only screen and (max-width: 590px) {
+    .text {
+        font-size: 2.8rem;
+    }
+
+    .link {
+        width: 100px;
+        height: 100px;
+    }
 }

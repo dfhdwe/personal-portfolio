@@ -12,8 +12,7 @@
 }
 
 .links {
-    display: inline-block;
-    text-align: right;
+    display: flex;
 }
 
 .links li {
@@ -45,11 +44,114 @@
 
 .link {
     color: #fff;
+    opacity: 0.9;
+}
+
+.link:hover {
+    color: #2ecc71;
+    opacity: 1;
+}
+
+.link_home {
+    display: none;
+}
+
+.icon {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
 }
 
 /* TODO: mobile nav */
-@media only screen and (max-width: 500px) {
-    .container {
-        background-color: red;
+@media only screen and (max-width: 590px) {
+
+    .container_open {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: scroll;
+        opacity: 0.95;
+        animation-name: slideIn;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 0.1s;
+        top: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links_open {
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .link_disabled {
+        cursor: default;
+        color: #999;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        position: relative;
+        padding: 0 1rem;
+        border-bottom: 0.1rem solid #999;
+    }
+
+    .link {
+        color: #333;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        position: relative;
+        padding: 0 1rem;
+    }
+
+    .link:before,
+    .link:after {
+        position: absolute;
+        opacity: 0;
+        font-size: 1.5rem;
+        top: 0px;
+        transition: all 0.3s;
+    }
+
+    .link:before {
+        content: '(';
+        left: 0px;
+        transform: translateX(0.3rem);
+    }
+
+    .link:after {
+        content: ')';
+        right: 0px;
+        transform: translateX(-0.3rem);
+    }
+
+    .link:hover:before,
+    .link:hover:after {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    .icon {
+        display: flex;
     }
 }

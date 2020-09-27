@@ -12,7 +12,7 @@ const IndexPage = () => {
         <div className={classes.container}>
             <Nav />
             <div className={classes.title_outer}>
-                <div className={classes.title}>Hello World</div>
+                <div className={classes.title}>Hello There</div>
             </div>
         </div>
     );

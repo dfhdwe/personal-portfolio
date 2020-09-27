@@ -8,3 +8,15 @@
 a {
     text-decoration: none;
 }
+
+::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}

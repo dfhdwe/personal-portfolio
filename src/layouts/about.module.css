@@ -16,6 +16,7 @@
 
 .text {
     padding: 0 12% 0 11%;
+    max-width: 700px;
 }
 
 .title span {
@@ -23,7 +24,7 @@
 }
 
 .text div {
-    margin-top: 4rem;
+    margin: 3rem 0;
     font-size: 1.8rem;
 }
 
@@ -36,5 +37,5 @@
 }
 
 .text span {
-    color: #E74C3C;
+    color: #2ecc71;
 }

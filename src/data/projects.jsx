@@ -7,7 +7,7 @@ const projects = [
     }, {
         name: "Distribution Fitts' Law",
         description: "HCI research paper on distribution Fitts' Law",
-        link: "https://new.precisionconference.com/user/login",
+        link: "https://new.precisionconference.com/chi21b/coauthor/subs/2810",
         languages: ["java", "python", "research paper"]
     }, {
         name: "Video Chat with ScreenShare",

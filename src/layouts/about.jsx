@@ -13,14 +13,29 @@ const AboutPage = () => {
         <div className={classes.container}>
             <Nav />
             <div className={classes.title}>
-                Hi, my name is <span>Michael Wang</span>
+                Hey, nice to meet you
             </div>
             <div className={classes.text}>
                 <div className={classes.text_left}>
-                    I’m a <span>computer science</span> and<br /><span>mathematics</span> student at<br />the University of Maryland, College Park.
+                    I'm <span>Michael</span>, <br />
+                    a junior <span>computer science</span><br />
+                    and <span>mathematics</span> student at<br />
+                    the University of Maryland, College Park.
                 </div>
                 <div className={classes.text_right}>
-                    I like anything software development and <br />am particularly interested in<br /><span>website</span> and <span>app development</span>.
+                    To me, coding is a lot of fun.<br />
+                    <span>Collaborating</span> with others<br />
+                    to <span>create</span> things and<br />
+                    <span>solve</span> problems had always<br />
+                    been a journey on its own.
+                </div>
+
+                <div className={classes.text_left}>
+                    Of course, computer science <br />
+                    is a big field, and I am<br />
+                    particularly interested in<br />
+                    <span>machine learning</span><br />
+                    and <span>web development</span>.
                 </div>
             </div>
 

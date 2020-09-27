@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import './loader.css';
 
 import { HashRouter as Router, Route } from 'react-router-dom';
 
@@ -9,6 +10,23 @@ import ProjectsPage from './layouts/projects';
 import ContactPage from './layouts/contact';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false), 3000);
+  }, []);
+
+  useEffect(() => {
+    const el = document.querySelector('.loader-container');
+    if (el && !isLoading) {
+      el.remove();
+    }
+  }, [isLoading])
+
+  if (isLoading) {
+    return null;
+  }
+
   return (
     <Router basename='/'>
       <div className="App">
